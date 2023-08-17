@@ -2,6 +2,9 @@
 #include "ExitGTAV.h"
 #include "process.h"
 
+#include <string>
+#include <iostream>
+
 LPCSTR Drawing::lpWindowName = "ExitGTAV";
 ImVec2 Drawing::vWindowSize = { 150, 100 };
 ImGuiWindowFlags Drawing::WindowFlags = ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize;
@@ -43,8 +46,8 @@ void Drawing::Draw()
 
             if (isGTA5Running) {
                 if (ImGui::Button("Exit GTAV")) {
-                    main();
                     ImGui::DestroyContext();
+                    main();
                 }
 
                 HelpMarker("Get that bag");
