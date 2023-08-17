@@ -3,7 +3,7 @@
 #include "process.h"
 
 LPCSTR Drawing::lpWindowName = "ExitGTAV";
-ImVec2 Drawing::vWindowSize = { 150, 100 };
+ImVec2 Drawing::vWindowSize = { 180, 120 };
 ImGuiWindowFlags Drawing::WindowFlags = ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize;
 bool Drawing::bDraw = true;
 
@@ -42,10 +42,13 @@ void Drawing::Draw()
             bool isGTA5Running = IsProcessRunning(processName);
 
             if (isGTA5Running) {
-                if (ImGui::Button("Exit GTAV")) {
+                if (ImGui::Button("Exit GTAV") || (ImGui::IsKeyPressed(ImGuiKey_P) &&
+                    ImGui::IsKeyDown(ImGuiKey_LeftCtrl) &&
+                    ImGui::IsKeyDown(ImGuiKey_LeftShift))) {
                     main();
-                    ImGui::DestroyContext();
                 }
+
+                ImGui::Text("Shorcut: Ctrl + Shift + P");
 
                 HelpMarker("Get that bag");
             }
