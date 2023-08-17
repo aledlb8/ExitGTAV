@@ -212,6 +212,9 @@ void UI::Render()
         ImGui::EndFrame();
 
         ImGui::Render();
+
+        SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+
         const float clear_color_with_alpha[4] = { clear_color.x * clear_color.w, clear_color.y * clear_color.w, clear_color.z * clear_color.w, clear_color.w };
         pd3dDeviceContext->OMSetRenderTargets(1, &pMainRenderTargetView, nullptr);
         pd3dDeviceContext->ClearRenderTargetView(pMainRenderTargetView, clear_color_with_alpha);
