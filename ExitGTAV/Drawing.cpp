@@ -48,7 +48,7 @@ void Drawing::Draw()
                     main();
                 }
 
-                ImGui::Text("Shorcut: Ctrl + Shift + P");
+                ImGui::Text("Shortcut: Ctrl + Shift + P");
 
                 HelpMarker("Get that bag");
             }
