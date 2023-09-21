@@ -15,7 +15,7 @@ int main()
 
         if (Process32FirstW(hSnapshot, &processEntry))
         {
-            do
+          do
             {
                 if (wcscmp(processEntry.szExeFile, processName) == 0)
                 {
