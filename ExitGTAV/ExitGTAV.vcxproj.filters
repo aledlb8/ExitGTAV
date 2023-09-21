@@ -21,76 +21,316 @@
     <ClCompile Include="main.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\imgui.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\imgui_demo.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\imgui_draw.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\imgui_tables.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\imgui_widgets.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="UI.cpp">
-      <Filter>Source files</Filter>
-    </ClCompile>
-    <ClCompile Include="Drawing.cpp">
-      <Filter>Source files</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
-      <Filter>Header files\ImGui</Filter>
-    </ClCompile>
     <ClCompile Include="ExitGTAV.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
     <ClCompile Include="process.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_demo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_draw.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_tables.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\Dear ImGui\imgui_widgets.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ImGui\imconfig.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imgui.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imgui_internal.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imstb_rectpack.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imstb_textedit.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imstb_truetype.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="UI.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
-    <ClInclude Include="Drawing.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imgui_impl_dx11.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGui\imgui_impl_win32.h">
-      <Filter>Header files\ImGui</Filter>
-    </ClInclude>
     <ClInclude Include="ExitGTAV.h">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Header files</Filter>
     </ClInclude>
     <ClInclude Include="process.h">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\backends\imgui_impl_win32.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imconfig.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imgui_internal.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_image.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_rectpack.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_textedit.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Dear ImGui\imstb_truetype.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\audiodefs.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\comdecl.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D2D1.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D2D1Helper.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D2DBaseTypes.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D2Derr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3d9.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3d9caps.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3d9types.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D10.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D10_1.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D10_1shader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D10effect.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3d10misc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3d10sdklayers.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D10shader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D11.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D11SDKLayers.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3D11Shader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3Dcommon.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3Dcompiler.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DCSX.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9anim.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9core.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9effect.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9math.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9mesh.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9shader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9shape.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9tex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9xof.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX10.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx10async.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX10core.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX10math.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX10mesh.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX10tex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX11.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX11async.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX11core.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX11tex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\Dcommon.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dinput.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dinputd.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dsconf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dsetup.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dsound.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\DWrite.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dxdiag.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\DxErr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dxfile.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\DXGI.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\DXGIFormat.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\DXGIType.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\dxsdkver.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\gameux.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\PIXPlugin.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\rmxfguid.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\rmxftmpl.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\rpcsal.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\X3DAudio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\xact3.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\xact3d3.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\xact3wb.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XAPO.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XAPOBase.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XAPOFX.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XAudio2.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XAudio2fx.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XDSP.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\XInput.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\xma2defs.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\Microsoft DirectX SDK\Include\xnamath.h">
+      <Filter>Header files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -102,5 +342,83 @@
     <ResourceCompile Include="icon.rc">
       <Filter>Resource files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>Header files</Filter>
+    </None>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\d3dx9math.inl">
+      <Filter>Header files</Filter>
+    </None>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\D3DX10math.inl">
+      <Filter>Header files</Filter>
+    </None>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\xnamathconvert.inl">
+      <Filter>Header files</Filter>
+    </None>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\xnamathmatrix.inl">
+      <Filter>Header files</Filter>
+    </None>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\xnamathmisc.inl">
+      <Filter>Header files</Filter>
+    </None>
+    <None Include="Thirdparty\Microsoft DirectX SDK\Include\xnamathvector.inl">
+      <Filter>Header files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d2d1.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3d9.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3d10.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3d10_1.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3d11.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dcompiler.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\D3DCSX.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\D3DCSXd.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dx9.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dx9d.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dx10.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dx10d.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dx11.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dx11d.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\d3dxof.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\dinput8.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\dsound.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\dwrite.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\DxErr.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\dxgi.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\dxguid.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\X3DAudio.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\xapobase.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\xapobased.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\XAPOFX.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x64\XInput.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d2d1.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3d9.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3d10.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3d10_1.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3d11.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dcompiler.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\D3DCSX.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\D3DCSXd.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dx9.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dx9d.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dx10.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dx10d.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dx11.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dx11d.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\d3dxof.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\dinput8.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\dsetup.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\dsound.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\dwrite.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\DxErr.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\dxgi.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\dxguid.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\X3DAudio.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\xapobase.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\xapobased.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\XAPOFX.lib" />
+    <Library Include="Thirdparty\Microsoft DirectX SDK\Lib\x86\XInput.lib" />
   </ItemGroup>
 </Project>
