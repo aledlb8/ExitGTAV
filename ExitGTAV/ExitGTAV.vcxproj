@@ -162,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DirectX.h" />
-    <ClInclude Include="Globals.h" />
     <ClInclude Include="Gui.h" />
     <ClInclude Include="ExitGTAV.h" />
     <ClInclude Include="process.h" />

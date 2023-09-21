@@ -77,9 +77,6 @@
     <ClInclude Include="Gui.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="Globals.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
     <ClInclude Include="DirectX.h">
       <Filter>Header files</Filter>
     </ClInclude>
