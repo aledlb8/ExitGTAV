@@ -80,25 +80,25 @@ void Gui::Render( void )
         ImGuiWindowFlags main_window_flags = 0; // ImGuiWindowFlags_NoResize
         ImGui::SetNextWindowPos(ImVec2(0, 0));
         ImGui::SetNextWindowSize(ImVec2(Window::WindowSize.x, Window::WindowSize.y));
-        ImGui::Begin(GUI_TITE, &Window::bIsRunning, main_window_flags);
+        ImGui::Begin("ExitGTAV", &Window::bIsRunning, main_window_flags);
         Think();
         {
             const wchar_t* processName = L"GTA5.exe";
             bool isGTA5Running = IsProcessRunning(processName);
 
             if (isGTA5Running) {
-                if (ImGui::Button("Exit GTAV") || (ImGui::IsKeyPressed(ImGuiKey_P) &&
-                    ImGui::IsKeyDown(ImGuiKey_LeftCtrl) &&
-                    ImGui::IsKeyDown(ImGuiKey_LeftShift))) {
+                if (ImGui::Button("Exit GTAV")) {
                     main();
                 }
-
-                ImGui::Text("Shortcut: Ctrl + Shift + P");
             }
             else {
                 ImGui::Text("GTAV is not running.");
                 ImGui::Text("Waiting...");
             }
+
+            ImGui::Spacing();
+            ImGui::Spacing();
+            ImGui::Spacing();
 
             ImGui::Text("FPS: %.1f", ImGui::GetIO().Framerate);
             ImGui::Checkbox("Enable V-Sync", &DirectX::bSyncInterval);

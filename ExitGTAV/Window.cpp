@@ -13,7 +13,7 @@ void Window::CreateWindowAndClass()
     wc.hIcon = LoadIcon(0, IDI_APPLICATION);
     wc.hCursor = LoadCursor(0, IDC_ARROW);
     wc.hbrBackground = nullptr;
-    wc.lpszMenuName = reinterpret_cast<LPCWSTR>(WINDOW_TITE);
+    wc.lpszMenuName = reinterpret_cast<LPCWSTR>("ExitGTAV");
     wc.lpszClassName = reinterpret_cast<LPCWSTR>("Class01");
     wc.hIconSm = LoadIcon(0, IDI_APPLICATION);
 
