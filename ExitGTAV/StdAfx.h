@@ -19,4 +19,3 @@
 #include "DirectX.h"
 #include "Window.h"
 #include "Gui.h"
-#include "Globals.h"
